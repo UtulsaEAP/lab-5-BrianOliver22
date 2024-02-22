@@ -13,11 +13,11 @@ def int_to_reverse_binary(num1):
 def string_reverse(input_string): 
     reverse_input = input_string [::1]
     sep = ""
-    reverse_input= sep.join(reverse_input)
+    final= sep.join(reverse_input)
     
    #write your for loop here
     
-    return reverse_input
+    return final
 
 if __name__ == '__main__':
     user_input = int(input())

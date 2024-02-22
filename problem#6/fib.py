@@ -1,3 +1,7 @@
+""""
+Name: Brian Oliver
+lab time: 2/22/2024 10:00
+""" 
 def fibonacci(start_num):
     #write your code here
     x = 0

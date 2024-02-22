@@ -1,11 +1,21 @@
-def fibonacci(n):
+def fibonacci(start_num):
     #write your code here
-    if (n < 0 ):
-        return -1
-    m=n
     x = 0
-    while (m > 0):
-         r
+    n = 1
+    finish = 1
+    if (start_num < 0 ):
+        return -1
+    elif (start_num == 0):
+        return 0
+    elif (start_num == 1):
+        return 1
+    elif(start_num > 1):
+        while (start_num > 0):
+            start_num -= 1
+            finish += x
+            x += x
+            start_num -= 1
+        return finish
 
 if __name__ == '__main__':
     start_num = int(input())

@@ -1,5 +1,5 @@
 def int_to_reverse_binary(num1):
-    binary_val = ''
+    binary_val = []
 #write your while loop here
     new = num1
     while (num1 > 0.99999):
@@ -11,7 +11,9 @@ def int_to_reverse_binary(num1):
 
 
 def string_reverse(input_string): 
-    reverse_input = ''
+    reverse_input = input_string [::1]
+    sep = ""
+    reverse_input= sep.join(reverse_input)
     
    #write your for loop here
     

@@ -14,7 +14,7 @@ def int_to_reverse_binary(num1):
     com = ""
     binary_val = com.join(binary_val)
 
-    return binary_val
+    assert binary_val
 
 
 def string_reverse(input_string): 
@@ -28,7 +28,7 @@ def string_reverse(input_string):
    #write your for loop here
     """
     final  = input_string [::-1] 
-    return final
+    assert final
 
 if __name__ == '__main__':
     user_input = int(input())

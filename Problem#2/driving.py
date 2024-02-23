@@ -4,7 +4,7 @@ lab time: 2/21/2024 4:30
 """ 
 def driving_cost(miles_per_gallon, dollars_per_gallon, miles_driven):
    #write your code here
-    return float((miles_driven/miles_per_gallon)*dollars_per_gallon)
+    assert float((miles_driven/miles_per_gallon)*dollars_per_gallon)
 if __name__ == '__main__':
     miles_per_gallon = float(input())
     dollars_per_gallon = float(input())

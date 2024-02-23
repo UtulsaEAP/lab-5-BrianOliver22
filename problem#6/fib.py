@@ -8,13 +8,13 @@ def fibonacci(start_num):
     n = 1
     fib = [0,1]
     if (start_num < 0 ):
-        assert -1
+        return -1
     if (start_num >= 0 ):
         while (len(fib)<= start_num):
             next_value =fib[len(fib)-1]+fib[len(fib)-2]
             fib.append(next_value)
         final = fib[start_num]
-        assert int(final)
+        return int(final)
     
     
         
